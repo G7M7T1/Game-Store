@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: black;
+}
+.footer p {
+  color: white;
+}
+.footer p a {
+  text-decoration: none;
+  color: #a3ffff;
+}
+
+/*# sourceMappingURL=footer.css.map */

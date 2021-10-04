@@ -1,0 +1,55 @@
+.welcomeText {
+  background-image: url("https://images.unsplash.com/photo-1493243350443-9e3048ce7288?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1640&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 0 5px 5px black;
+}
+.welcomeText h1 {
+  font-size: 2rem;
+}
+.welcomeText .welcomeBtnList {
+  margin: 1rem;
+}
+.welcomeText .welcomeBtnList button {
+  margin: 0 1rem;
+}
+@media (max-width: 650px) {
+  .welcomeText {
+    font-size: 70%;
+    text-align: center;
+  }
+  .welcomeText h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+}
+@media (max-width: 450px) {
+  .welcomeText .welcomeBtnList button {
+    margin: 0.1rem;
+  }
+}
+@media (max-width: 365px) {
+  .welcomeText {
+    font-size: 50%;
+  }
+  .welcomeText h1 {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .welcomeText .welcomeBtnList {
+    display: flex;
+    flex-direction: column;
+  }
+  .welcomeText .welcomeBtnList button {
+    margin: 1rem;
+  }
+}
+
+/*# sourceMappingURL=welcometext.css.map */

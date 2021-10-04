@@ -1,0 +1,88 @@
+.products {
+  background-color: #14151B;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.products .aboutUsText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.products .aboutUsText .starAndText {
+  text-align: center;
+  width: 210px;
+  margin: 1rem;
+  background-color: #32343B;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.products .aboutUsText .starAndText i {
+  color: #FF4D00;
+  font-size: 3rem;
+  margin-bottom: 0.6rem;
+}
+.products .aboutUsText .starAndText h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.products .aboutUsText .starAndText p {
+  margin-top: 0.4rem;
+}
+.products .beforeProductText {
+  margin-top: 1rem;
+}
+.products .beforeProductText h1 {
+  color: #FF4D00;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+}
+.products .beforeProductText p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.products .trapAdHere {
+  display: flex;
+  margin: 1rem 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 800px;
+  background-color: #32343B;
+  border-radius: 3rem;
+}
+.products .trapAdHere .trapAdText {
+  width: 450px;
+  padding: 1rem;
+}
+.products .trapAdHere .trapAdText h1 {
+  color: #FF4D00;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.products .trapAdHere .trapAdImg {
+  width: 300px;
+}
+@media (max-width: 1330px) {
+  .products .trapAdHere {
+    width: 700px;
+  }
+}
+@media (max-width: 750px) {
+  .products .trapAdHere {
+    width: 500px;
+  }
+}
+@media (max-width: 530px) {
+  .products .trapAdHere {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=product.css.map */
