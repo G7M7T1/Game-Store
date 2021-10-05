@@ -69,6 +69,74 @@
 .products .trapAdHere .trapAdImg {
   width: 300px;
 }
+.products .videoWatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.products .videoWatch h1 {
+  color: #FF4D00;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2rem;
+}
+.products .videoWatch p {
+  text-align: center;
+}
+.products .videoWatch .videoWatchList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.products .videoWatch .videoWatchList p {
+  text-align: center;
+}
+.products .reviewsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+.products .reviewsContainer .reviewsBeginText h1 {
+  color: #FF4D00;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 2rem 1rem 0 0;
+}
+.products .reviewsContainer .reviewsBeginText p {
+  text-align: center;
+}
+.products .reviewsContainer .reviewsCardsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.products .reviewsContainer .reviewsCardsList .reviewsCard {
+  margin: 1rem;
+  padding: 1rem;
+  width: 250px;
+  flex-wrap: wrap;
+  background-color: #32343B;
+  border-radius: 5%;
+}
+.products .reviewsContainer .reviewsCardsList .reviewsCard h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.products .reviewsContainer .reviewsCardsList .reviewsCard .starHere {
+  text-align: center;
+  color: yellow;
+}
+.products .reviewsContainer .reviewsCardsList .reviewsCard p {
+  font-size: 1.2rem;
+  text-align: center;
+}
 @media (max-width: 1330px) {
   .products .trapAdHere {
     width: 700px;

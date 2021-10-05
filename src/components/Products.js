@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/product.css";
-// import ReactPlayer from "react-player";
+import ReactPlayer from "react-player";
 
 function Products() {
   return (
@@ -50,23 +50,170 @@ function Products() {
           <img src="/trapbox.png" alt="" />
         </div>
       </div>
-      {/*<div className="videoWatch">*/}
-      {/*  <h1>Watch Our Product Video</h1>*/}
-      {/*  <div className="videoWatchList">*/}
-      {/*    <ReactPlayer*/}
-      {/*      style={{ padding: "1rem" }}*/}
-      {/*      height="270px"*/}
-      {/*      width="480px"*/}
-      {/*      url="https://youtu.be/I51kCoLOaZo"*/}
-      {/*    />*/}
-      {/*    <ReactPlayer*/}
-      {/*      style={{ padding: "1rem" }}*/}
-      {/*      height="270px"*/}
-      {/*      width="480px"*/}
-      {/*      url="https://youtu.be/HycxWn4eojc"*/}
-      {/*    />*/}
-      {/*  </div>*/}
-      {/*</div>*/}
+      <div className="videoWatch">
+        <h1>Watch Our Product Video</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
+          praesentium.
+        </p>
+        <div className="videoWatchList">
+          <ReactPlayer
+            style={{ padding: "1rem" }}
+            height="50vh"
+            width="60vw"
+            url="https://youtu.be/IItoAi3Kpiw"
+          />
+          <h1>Watch Our Other Video</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
+            praesentium.
+          </p>
+          <ReactPlayer
+            style={{ padding: "1rem" }}
+            height="50vh"
+            width="60vw"
+            url="https://youtu.be/a0xbs4sVEq4"
+          />
+        </div>
+      </div>
+      <div className="reviewsContainer">
+        <div className="reviewsBeginText">
+          <h1>Reviews</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
+            praesentium.
+          </p>
+        </div>
+        <div className="reviewsCardsList">
+          <div className="reviewsCard">
+            <h1>Trap</h1>
+            <div className="starHere">
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star-half-alt"> </i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              consequatur ea eum fugiat nisi nostrum quibusdam rem, sapiente
+              tempora vitae!
+            </p>
+          </div>
+
+          <div className="reviewsCard">
+            <h1>Alucard</h1>
+            <div className="starHere">
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              consequatur ea eum fugiat nisi nostrum quibusdam rem, sapiente
+              tempora vitae!
+            </p>
+          </div>
+
+          <div className="reviewsCard">
+            <h1>Jack</h1>
+            <div className="starHere">
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="far fa-star"> </i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              consequatur ea eum fugiat nisi nostrum quibusdam rem, sapiente
+              tempora vitae!
+            </p>
+          </div>
+
+          <div className="reviewsCard">
+            <h1>Mars</h1>
+            <div className="starHere">
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              consequatur ea eum fugiat nisi nostrum quibusdam rem, sapiente
+              tempora vitae!
+            </p>
+          </div>
+
+          <div className="reviewsCard">
+            <h1>Line</h1>
+            <div className="starHere">
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              consequatur ea eum fugiat nisi nostrum quibusdam rem, sapiente
+              tempora vitae!
+            </p>
+          </div>
+
+          <div className="reviewsCard">
+            <h1>Guss</h1>
+            <div className="starHere">
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star-half-alt"> </i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              consequatur ea eum fugiat nisi nostrum quibusdam rem, sapiente
+              tempora vitae!
+            </p>
+          </div>
+
+          <div className="reviewsCard">
+            <h1>G7M7T1</h1>
+            <div className="starHere">
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="far fa-star"> </i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              consequatur ea eum fugiat nisi nostrum quibusdam rem, sapiente
+              tempora vitae!
+            </p>
+          </div>
+
+          <div className="reviewsCard">
+            <h1>Xu Xu</h1>
+            <div className="starHere">
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star"> </i>
+              <i className="fas fa-star-half-alt"> </i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+              consequatur ea eum fugiat nisi nostrum quibusdam rem, sapiente
+              tempora vitae!
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
