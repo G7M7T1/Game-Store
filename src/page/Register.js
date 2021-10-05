@@ -28,7 +28,7 @@ function Login() {
           </div>
         </div>
         <div className="control">
-          <button className="button is-fullwidth is-primary">Login</button>
+          <button className="button is-fullwidth is-primary">Register</button>
           <Link to="/">
             <button className="button is-fullwidth is-primary">Back</button>
           </Link>

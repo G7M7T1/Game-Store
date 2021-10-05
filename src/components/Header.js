@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/header.css";
+import { Link } from "react-router-dom";
 
 function Header({ userName }) {
   function checkUser() {
@@ -18,8 +19,8 @@ function Header({ userName }) {
     } else {
       return (
         <React.Fragment>
-          <a href="/">Login</a>
-          <a href="/">Register</a>
+          <Link to="/login">Login</Link>
+          <Link to="/register">Register</Link>
         </React.Fragment>
       );
     }
