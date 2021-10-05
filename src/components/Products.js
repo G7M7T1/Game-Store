@@ -148,7 +148,6 @@ function Products() {
               tempora vitae!
             </p>
           </div>
-
           <div className="reviewsCard">
             <h1>Line</h1>
             <div className="starHere">
