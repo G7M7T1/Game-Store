@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/welcometext.css";
+import { Link } from "react-router-dom";
 
 function WelcomeText({ userName }) {
   return (
@@ -11,8 +12,10 @@ function WelcomeText({ userName }) {
       </p>
       <div className="welcomeBtnList">
         <button className="button is-black">BUY GAME</button>
-        <button className="button is-black">FAQ</button>
-        <button className="button is-black">Status</button>
+        <Link to="/terms">
+          <button className="button is-black">TERMS</button>
+        </Link>
+        <button className="button is-black">STATUS</button>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import NotFound from "./page/NotFound";
 import Login from "./page/Login";
 import Register from "./page/Register";
+import Terms from "./page/Terms";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,10 @@ ReactDOM.render(
 
         <Route path="/register" exact>
           <Register />
+        </Route>
+
+        <Route path="/terms" exact>
+          <Terms />
         </Route>
 
         <Route>
