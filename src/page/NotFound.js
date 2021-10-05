@@ -1,18 +1,18 @@
 import React from "react";
 import Header from "../components/Header";
-import Products from "../components/Products";
-import Footer from "../components/Footer";
 import WelcomeText from "../components/WelcomeText";
+import Footer from "../components/Footer";
+import N404 from "../components/N404";
 
-function App() {
+function NotFound() {
   return (
-    <div className="main">
+    <div className="notFoundPage">
       <Header userName="" />
       <WelcomeText userName="" />
-      <Products />
+      <N404 />
       <Footer />
     </div>
   );
 }
 
-export default App;
+export default NotFound;

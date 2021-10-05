@@ -1,0 +1,62 @@
+.N404Page {
+  background-color: #14151B;
+  text-align: center;
+  min-height: 80vh;
+}
+.N404Page .awesome {
+  font-size: 10rem;
+  width: 100%;
+  margin: 0 auto;
+  color: #313131;
+  font-weight: bold;
+  animation: colorChange 20s infinite alternate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.N404Page p {
+  font-size: 2rem;
+  color: white;
+}
+.N404Page p a {
+  color: #a3ffff;
+}
+@keyframes colorChange {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+/*# sourceMappingURL=notfound.css.map */
