@@ -7,8 +7,8 @@ import WelcomeText from "../components/WelcomeText";
 function App() {
   return (
     <div className="main">
-      <Header userName="Creagan" />
-      <WelcomeText userName="Creagan" />
+      <Header userName="Trap" />
+      <WelcomeText userName="Trap" />
       <Products />
       <Footer />
     </div>
