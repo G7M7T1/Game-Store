@@ -15,7 +15,9 @@ function WelcomeText({ userName }) {
         <Link to="/terms">
           <button className="button is-black">TERMS</button>
         </Link>
-        <button className="button is-black">STATUS</button>
+        <Link to="/status">
+          <button className="button is-black">STATUS</button>
+        </Link>
       </div>
     </div>
   );

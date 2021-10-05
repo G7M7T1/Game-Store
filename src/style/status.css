@@ -1,0 +1,41 @@
+.statusList {
+  background-color: #14151B;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.statusList .statusContainer {
+  margin: 2rem;
+  background-color: #14151B;
+  width: 70vw;
+  min-height: 90vh;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.statusList .statusContainer .statusCard {
+  background-color: #181818;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 3%;
+}
+.statusList .statusContainer .statusCard img {
+  margin-top: 1rem;
+}
+.statusList .statusContainer .statusCard .statusCardList {
+  margin-top: 1rem;
+}
+.statusList .statusContainer .statusCard .statusCardList .productStatus {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.statusList .statusContainer .statusCard .statusCardList .productStatus .WorkingTag {
+  color: chartreuse;
+}
+
+/*# sourceMappingURL=status.css.map */

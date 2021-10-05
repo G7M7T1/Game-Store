@@ -7,6 +7,7 @@ import NotFound from "./page/NotFound";
 import Login from "./page/Login";
 import Register from "./page/Register";
 import Terms from "./page/Terms";
+import Status from "./page/Status";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -26,6 +27,10 @@ ReactDOM.render(
 
         <Route path="/terms" exact>
           <Terms />
+        </Route>
+
+        <Route path="/status" exact>
+          <Status />
         </Route>
 
         <Route>
